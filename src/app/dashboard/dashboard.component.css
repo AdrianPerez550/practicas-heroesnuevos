@@ -1,9 +1,10 @@
 /* DashboardComponent's private CSS styles */
 
 h2 {
-  text-align: right;
+  /* los mejores heroes */
+  text-align: center;
   color: blue;
-  
+
 }
 
 .heroes-menu {
@@ -24,6 +25,7 @@ h2 {
   align-items: flex-start;
 }
 
+/* botones del top */
 a {
   background-color: lightskyblue;
   border-radius: 2px;
