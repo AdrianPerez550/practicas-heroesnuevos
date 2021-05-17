@@ -70,7 +70,7 @@ input {
 
 .add-button:hover {
   color: white;
-  background-color: #42545C;
+  background-color: lightskyblue;
 }
 
 button.delete {
