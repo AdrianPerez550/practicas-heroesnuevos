@@ -2,7 +2,7 @@ export interface Hero {
   id: number;
   name: string;
   age:number;
-  poder:string;
+  power:string;
   universe:string;
   secret_identity:string;
 
