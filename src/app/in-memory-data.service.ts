@@ -9,12 +9,19 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes = [
       { id: 11, name: 'Hulk',age: 50,power:'Superfuerza',universe:'Marvel',secret_identity: "Bruce Banner" },
-      { id: 12, name: 'Superman', age:22,universe:'DC Comics',secret_identity: "Bruce Banner" ,},
-      { id: 13, name: 'Dr.Strange',  },
-      { id: 14, name: 'Literna Verde' },
+      
+      { id: 12,  name: 'Superman', age:40,power:'Superfuerza',
+      universe:'DC Comics', secret_identity: "Clack Joseph Kent" },
+
+      { id: 13, name: 'Dr.Strange',age:55,power:'Supermagia',
+       universe:'Marvel', secret_identity: "Perter Hooten"  },
+
+      { id: 14, name: 'Literna Verde',age:38,power:'Anillo de poder',
+      universe:'DC Comics', secret_identity: "Alan Scott" },
+      
       { id: 15, name: 'Bruja escarlata' },
       { id: 16, name: 'Wonder Woman' },
-      { id: 17, name: 'Robin' },
+      { id: 17, name: 'Iron Man' },
       { id: 18, name: 'Capitana marvel' },
       { id: 19, name: 'Cibord' },
       { id: 20, name: 'Ant-man' }
