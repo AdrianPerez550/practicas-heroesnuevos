@@ -22,7 +22,7 @@ export const HEROES: Hero[] = [
   {id: 17, name: 'Robin', age:25,power:'Superfuerza',
   universe:'DC Comics', secret_identity: "Damian Wayne" },
 
-   {id: 17, name: 'Bruja escarlata', age:35,power:'Proyeccion astral',
+  {id: 17, name: 'Bruja escarlata', age:35,power:'Proyeccion astral',
   universe:'Marvel', secret_identity: "Wanda Maximoff"},
 
   {id: 18, name: 'Capitana Marvel', age:32,power:'Superfuerza y Supervuelo',
